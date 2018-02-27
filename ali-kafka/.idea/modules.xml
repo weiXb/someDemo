@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cc-api/cc-api.iml" filepath="$PROJECT_DIR$/../cc-api/cc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-charge.iml" filepath="$PROJECT_DIR$/e-charge.iml" />
+      <module fileurl="file://F:/MyWORK/format/format.iml" filepath="F:/MyWORK/format/format.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hgop/hgop.iml" filepath="$PROJECT_DIR$/../hgop/hgop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hkznop/hkznop.iml" filepath="$PROJECT_DIR$/../hkznop/hkznop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../logdata-convert-system/logdata-convert-system.iml" filepath="$PROJECT_DIR$/../logdata-convert-system/logdata-convert-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../logdata-convert-system-res/logdata-convert-system-res.iml" filepath="$PROJECT_DIR$/../logdata-convert-system-res/logdata-convert-system-res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../gatewayykr/trunk/ykrop/mina2.iml" filepath="$PROJECT_DIR$/../../../gatewayykr/trunk/ykrop/mina2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../svn/yunkuaichong/gatewaypnr/trunk/pnrop/mina2 (1).iml" filepath="$PROJECT_DIR$/../../../svn/yunkuaichong/gatewaypnr/trunk/pnrop/mina2 (1).iml" />
+      <module fileurl="file://F:/MyWORK/redissondemo/redissondemo.iml" filepath="F:/MyWORK/redissondemo/redissondemo.iml" />
+      <module fileurl="file://F:/MyWORK/spring-mybatis-dynamicDatasourse/spring-mybatis-dynamicDatasourse.iml" filepath="F:/MyWORK/spring-mybatis-dynamicDatasourse/spring-mybatis-dynamicDatasourse.iml" />
+      <module fileurl="file://F:/MyWORK/spring-mybatis-single-dataresourse/spring-mybatis-single-dataresourse.iml" filepath="F:/MyWORK/spring-mybatis-single-dataresourse/spring-mybatis-single-dataresourse.iml" />
+      <module fileurl="file://F:/MyWORK/weixb/weixb.iml" filepath="F:/MyWORK/weixb/weixb.iml" />
+      <module fileurl="file://F:/MyWORK/springboot/wxb-spring-boot.iml" filepath="F:/MyWORK/springboot/wxb-spring-boot.iml" />
+    </modules>
+  </component>
+</project>

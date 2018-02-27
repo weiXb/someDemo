@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 这个bean一定要放在最前面-->
+    <bean id="kafkaSaslConfig" class="cn.ykc.echarge.base.aliyun.openservices.kafka.config.KafkaSaslConfig"/>
+    <!-- 定义producer的参数 -->
+    <bean id="producerConfigs" factory-bean="kafkaSaslConfig" factory-method="producerProperties"/>
+    <bean id="producerProperties" class="java.util.HashMap">
+        <constructor-arg ref="producerConfigs"/>
+    </bean>
+
+    <!-- 创建kafkatemplate需要使用的producerfactory bean -->
+    <bean id="producerFactory" class="org.springframework.kafka.core.DefaultKafkaProducerFactory">
+        <constructor-arg ref="producerProperties"/>
+    </bean>
+
+    <!-- 创建kafkatemplate bean，使用的时候，只需要注入这个bean，即可使用template的send消息方法 -->
+    <bean id="kafkaTemplate" class="org.springframework.kafka.core.KafkaTemplate">
+        <constructor-arg ref="producerFactory"/>
+        <constructor-arg value="true"/>
+        <!--这里填的是默认Topic，实际发送时，可以指定Topic发送，如果没指定，则默认发送到该Topic-->
+        <property name="defaultTopic" value="${Topic}"/>
+    </bean>
+</beans>

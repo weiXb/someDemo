@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://F:/MyWORK" />
+    <file type="web" url="file://G:/../gatewayykr/trunk/ykrop" />
+    <file type="web" url="file://G:/../svn/yunkuaichong/gatewaypnr/trunk/pnrop" />
+    <file type="web" url="file://G:/../weixb" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../hgop" />
+    <file type="web" url="file://$PROJECT_DIR$/../hkznop" />
+    <file type="web" url="file://$PROJECT_DIR$/../logdata-convert-system" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="F:/MyWORK/weixb/pom.xml" />
+        <option value="F:/MyWORK/pom.xml" />
+        <option value="G:/../svn/yunkuaichong/gatewaypnr/trunk/pnrop/pom.xml" />
+        <option value="$PROJECT_DIR$/../cc-api/pom.xml" />
+        <option value="F:/MyWORK/format/pom.xml" />
+        <option value="F:/MyWORK/redissondemo/pom.xml" />
+        <option value="F:/MyWORK/springboot/pom.xml" />
+        <option value="F:/MyWORK/spring-mybatis-single-dataresourse/pom.xml" />
+        <option value="F:/MyWORK/spring-mybatis-dynamicDatasourse/pom.xml" />
+        <option value="$PROJECT_DIR$/../hgop/pom.xml" />
+        <option value="$PROJECT_DIR$/../hkznop/pom.xml" />
+        <option value="G:/../gatewayykr/trunk/ykrop/pom.xml" />
+        <option value="$PROJECT_DIR$/../logdata-convert-system/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.1.177/svn/PTP_ZDL/branches" />
+                  <option value="https://192.168.1.177/svn/PTP_ZDL/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.1.177/svn/PTP_ZDL/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../logdata-convert-system">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.1.177/svn/PTP_ZDL/branches" />
+                  <option value="https://192.168.1.177/svn/PTP_ZDL/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.1.177/svn/PTP_ZDL/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../logdata-convert-system-res">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://192.168.1.177/svn/PTP_ZDL/branches" />
+                  <option value="https://192.168.1.177/svn/PTP_ZDL/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://192.168.1.177/svn/PTP_ZDL/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../cc-api" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../hgop" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../hkznop" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../logdata-convert-system" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../logdata-convert-system-res" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../../../gatewayykr/trunk/ykrop" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../../../svn/yunkuaichong/gatewaypnr/trunk/pnrop" vcs="svn" />
+  </component>
+</project>

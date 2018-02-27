@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cc-api" />
+        <module name="e-charge" />
+        <module name="format" />
+        <module name="hgop" />
+        <module name="hkznop" />
+        <module name="logdata-convert-system" />
+        <module name="mina2" />
+        <module name="mina2 (1)" />
+        <module name="redissondemo" />
+        <module name="spring-mybatis-dynamicDatasourse" />
+        <module name="spring-mybatis-single-dataresourse" />
+        <module name="weixb" />
+        <module name="wxb-spring-boot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cc-api" target="1.7" />
+      <module name="demo" target="1.8" />
+      <module name="e-charge" target="1.7" />
+      <module name="format" target="1.8" />
+      <module name="hgop" target="1.7" />
+      <module name="hgop (1)" target="1.7" />
+      <module name="hkzhop" target="1.7" />
+      <module name="hkznop" target="1.7" />
+      <module name="logdata-convert-system" target="1.8" />
+      <module name="mina2" target="1.7" />
+      <module name="mina2 (1)" target="1.7" />
+      <module name="redissondemo" target="1.8" />
+      <module name="spring-mybatis-dynamicDatasourse" target="1.8" />
+      <module name="spring-mybatis-single-dataresourse" target="1.8" />
+      <module name="weixb" target="1.8" />
+      <module name="wxb-spring-boot" target="1.8" />
+      <module name="wxbspringboot" target="1.5" />
+      <module name="YKC-ZDL" target="1.7" />
+      <module name="ZDLdemo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ZDLdemo:war">
+    <output-path>F:/MyWORK/ZDLdemo/target</output-path>
+    <root id="archive" name="YKC-demo.war">
+      <element id="artifact" artifact-name="ZDLdemo:war exploded" />
+    </root>
+  </artifact>
+</component>

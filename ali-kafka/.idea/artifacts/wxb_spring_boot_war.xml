@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wxb-spring-boot:war">
+    <output-path>F:/MyWORK/springboot/target</output-path>
+    <root id="archive" name="wxb-spring-boot.war">
+      <element id="artifact" artifact-name="wxb-spring-boot:war exploded" />
+    </root>
+  </artifact>
+</component>

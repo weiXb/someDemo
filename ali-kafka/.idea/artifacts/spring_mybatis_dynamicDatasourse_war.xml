@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-mybatis-dynamicDatasourse:war">
+    <output-path>F:/MyWORK/spring-mybatis-dynamicDatasourse/target</output-path>
+    <root id="archive" name="spring-mybatis-dynamicDatasourse.war">
+      <element id="artifact" artifact-name="spring-mybatis-dynamicDatasourse:war exploded" />
+    </root>
+  </artifact>
+</component>

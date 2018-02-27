@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-mybatis-single-dataresourse:war">
+    <output-path>F:/MyWORK/spring-mybatis-single-dataresourse/target</output-path>
+    <root id="archive" name="spring-mybatis-single-dataresourse.war">
+      <element id="artifact" artifact-name="spring-mybatis-single-dataresourse:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mina2 (1):war">
+    <output-path>$PROJECT_DIR$/../../../svn/yunkuaichong/gatewaypnr/trunk/pnrop/target</output-path>
+    <root id="archive" name="mina2-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mina2 (1):war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wxbspringboot:war exploded">
+    <output-path>F:/MyWORK/target/wxb-spring-boot</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wxbspringboot" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="F:/MyWORK/target/wxb-spring-boot/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wxbspringboot/web/Web" />
+    </root>
+  </artifact>
+</component>

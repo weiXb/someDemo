@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="logdata-convert-system:war">
+    <output-path>$PROJECT_DIR$/../logdata-convert-system/target</output-path>
+    <root id="archive" name="logdata-convert-system-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="logdata-convert-system:war exploded" />
+    </root>
+  </artifact>
+</component>

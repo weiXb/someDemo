@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.onselect {
+  background-color: #009a61;
+}
+
+#main-content {
+  padding-left: 180px;
+  height: 500px;
+}
+
+.list-content {
+  height: 400px;
+  span {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: -3px;
+  }
+  .list-body {
+    margin-bottom: -5px;
+    .list-cell {
+      text-align: center;
+    }
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input,textarea {
+  border: 1px solid #cccccc;
+  outline: none;
+}
+
+button {
+  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+  outline: none;
+  border: 1px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: grey;
+}

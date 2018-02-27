@@ -1,0 +1,29 @@
+#left-menu {
+  background-color: #F6F6F6;
+  width: 150px;
+  min-height: 500px;
+  float: left;
+  position: relative;
+
+  .menu-button {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid rgba(61, 143, 217, 0.27);
+    cursor: pointer;
+  }
+
+  .l1-menu {
+    font-size: 18px;
+    font-weight: bolder;
+    .right-arrow-icon {
+      margin-left: 10px;
+    }
+  }
+
+  .l2-menu {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+}

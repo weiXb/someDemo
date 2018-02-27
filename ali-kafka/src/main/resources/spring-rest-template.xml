@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="pollingConnectionManager" class="org.apache.http.impl.conn.PoolingHttpClientConnectionManager">
+        <!--整个连接池的并发-->
+        <property name="maxTotal" value="${maxTotal}"/>
+        <!--每个主机的并发-->
+        <property name="defaultMaxPerRoute" value="${defaultMaxPerRoute}"/>
+    </bean>
+
+    <bean id="httpClientBuilder" class="org.apache.http.impl.client.HttpClientBuilder" factory-method="create">
+        <property name="connectionManager" ref="pollingConnectionManager"/>
+        <!--开启重试-->
+        <property name="retryHandler">
+            <bean class="org.apache.http.impl.client.DefaultHttpRequestRetryHandler">
+                <constructor-arg value="3"/>
+                <constructor-arg value="true"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="httpClient" factory-bean="httpClientBuilder" factory-method="build"/>
+
+    <bean id="httpClientFactory" class="org.springframework.http.client.HttpComponentsClientHttpRequestFactory">
+        <constructor-arg ref="httpClient"/>
+
+        <property name="connectTimeout" value="${connectTimeout}"/>
+        <property name="readTimeout" value="${readTimeout}"/>
+    </bean>
+
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <constructor-arg ref="httpClientFactory"/>
+
+    </bean>
+
+</beans>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+        http://www.springframework.org/schema/task
+        http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+    <task:annotation-driven/>
+    <task:scheduler id="myScheduler" pool-size="10"/>
+
+    <context:component-scan base-package="cn.ykc.echarge">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <context:property-placeholder location="classpath:spring_config.properties,classpath:plat_config.properties"/>
+    <import resource="classpath:spring-rest-template.xml"/>
+    <import resource="classpath:spring-redis.xml"/>
+    <!--<import resource="classpath:kafka-producer.xml"/>-->
+    <import resource="classpath:kafka-consumer.xml"/>
+
+    <bean id="postMsg" class="cn.ykc.echarge.base.auth.util.MyPostMsg" scope="singleton">
+        <constructor-arg name="mtHost" value="${mtHost}"/>
+        <constructor-arg name="mtPort" value="${mtPort}"/>
+        <constructor-arg name="moHost" value="${moHost}"/>
+        <constructor-arg name="moPort" value="${moPort}"/>
+    </bean>
+
+    <bean id="account" class="com.esms.common.entity.Account" scope="singleton">
+        <constructor-arg name="name" value="${name}"/>
+        <constructor-arg name="password" value="${password}"/>
+    </bean>
+</beans>
